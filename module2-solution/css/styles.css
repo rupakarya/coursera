@@ -20,12 +20,10 @@ section {
 }
 
 
-/* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
 
-/********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-4{
     float: left;
@@ -37,7 +35,6 @@ section {
   }
 }
 
-/********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
    .col-md-6,.col-md-12 {
     float: left;
@@ -53,7 +50,6 @@ section {
   }
 }
 
-/********** Large devices only **********/
 @media (max-width: 767px) {
   .col-sd-12{
     float: left;
