@@ -61,7 +61,7 @@ section {
   }
 }
 
-h2{
+.row h2{
   text-align: center;
   border-bottom: 1px solid black;
   border-left: 1px solid black;
@@ -69,23 +69,23 @@ h2{
   position: absolute;
   width: 200px;
   right: 0;
-  bottom: : 100;
+  bottom: 100;
   font-size: 125%;
 }
-#heading1 {
+.row #heading1 {
   background-color: #F08080;
   color: black; 
 }
-#heading2 {
+.row #heading2 {
   background-color: #B22222;
   color: white;
 }
-#heading3 {
+.row #heading3 {
   background-color: #FDF5E6;
   color: black;
 }
 
-p{
+.row p{
    margin-top: 25px;
    padding: 15px;
 }
